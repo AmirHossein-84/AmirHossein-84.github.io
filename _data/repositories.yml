@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - AmirHossein-84
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - AmirHossein-84/LeetCode
+  - AmirHossein-84/neural-network-visualizer
+  - AmirHossein-84/calculator
+  - AmirHossein-84/DNS-changer
+  - AmirHossein-84/TTS-and-STT
+  - AmirHossein-84/todolist

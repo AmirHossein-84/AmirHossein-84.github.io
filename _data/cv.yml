@@ -2,96 +2,160 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: AmirHossein Karbalaie
     - name: Date of Birth
-      value: 14th March 1879
+      value: 2nd September 2005
     - name: Languages
-      value: English, German
+      value: Farsi, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: diploma
+      institution: Azad University, Tehran, Iran
+      year: 2023
+    #   description:
+    #     - Description 1.
+    #     - Description 2.
+    #     - title: Description 3.
+    #       contents:
+    #         - Sub-description 1.
+    #         - Sub-description 2.
+    # - title: Federal teaching diploma
+    #   institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+    #   year: 1900
+    #   description:
+    #     - Description 1.
+    #     - Description 2.
 
-- title: Experience
+# - title: Experience
+#   type: time_table
+#   contents:
+#     - title: Professor of Theoretical Physics
+#       institution: Institute for Advanced Study, Princeton University
+#       year: 1933 - 1955
+#       description:
+#         - Description 1.
+#         - Description 2.
+#         - title: Description 3.
+#           contents:
+#             - Sub-description 1.
+#             - Sub-description 2.
+#     - title: Visiting Professor
+#       institution: California Institute of Technology, Pasadena, California, US
+#       year: 1933
+#       description:
+#         - Description 1.
+#         - Description 2.
+
+#     - title: Director
+#       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+#       year: 1917-1933
+
+#     - title: Professor of Theoretical Physics
+#       institution: Karl-Ferdinand University, Prague, Czechoslovakia
+#       year: 1911 - 1917
+#       description:
+
+#     - title: Associate Professor of Theoretical Physics
+#       institution: University of Zurich, Zurich, Switzerland
+#       year: 1909 - 1911
+
+- title: Projects
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: <a href="https://tav-eng.com">Tav Engineering Website</a>
+      year: 2023
+      description: Developed a responsive WordPress website for Tav Engineering, focusing on optimizing performance, SEO, and modern design aesthetics. Includes full-stack WordPress customization, SEO optimization, and deployment maintenance.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: <a href="https://AmirHossein-84.github.io">Personal Portfolio Website (al-folio)</a>
+      year: 2025
+      description: Customized the al-folio Jekyll theme to create a personal academic portfolio showcasing projects and CV. Includes Jekyll customization, YAML configuration, and GitHub Pages deployment.
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    - title: <a href="https://github.com/AmirHossein-84/TTS-and-STT">TTS-and-STT</a>
+      year: 2023
+      description: A Python-based GUI app that integrates speech recognition and text-to-speech technologies using Google APIs and Tkinter. Converts spoken language to text and vice versa.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: <a href="https://github.com/AmirHossein-84/DNS-changer">DNS Changer</a>
+      year: 2023
+      description: A desktop utility for easily changing DNS settings through a simple Terminal interface. Enhances privacy and improves browsing performance by switching between DNS providers.
 
-- title: Open Source Projects
-  type: time_table
+- title: Skills
+  type: nested_list
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
+    - title: Programming & Tools
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Python
+        - Pandas
+        - NumPy
+        - Matplotlib
+        - Scikit-learn
+        - Jupyter
+        - Git
+        - Docker
+
+    - title: Data Science & Machine Learning
       items:
-        - Max Planck Medal
+        - Data Cleaning
+        - Feature Engineering
+        - Model Evaluation
+        - Regression & Classification
+        - Supervised & Unsupervised Learning
+
+    - title: Web Development
+      items:
+        - HTML
+        - CSS
+        - WordPress
+
+- title: Languages
+  type: list
+  contents:
+    - "English: Fluent"
+    - "Persian (Farsi): Native speaker"
+
+
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 1921
+#       items:
+#         - Nobel Prize in Physics
+#         - Matteucci Medal
+#     - year: 2029
+#       items:
+#         - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Python Development
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Application Development with Python
+        - GUI Programming with Tkinter/PyQt
+        - Python Libraries and Framework Development
+    - title: Data Science
       items:
-        - Description 1.
-        - Description 2.
+        - Machine Learning and AI Applications
+        - Natural Language Processing
+        - Data Analysis and Visualization
+        - Deep Learning Techniques
+    - title: Data Science & AI
+      items:
+        - Machine Learning
+        - Deep Learning
+        - Data Visualization
+        - Natural Language Processing
+        - AI Ethics
+    - title: Software & Technology
+      items:
+        - Open Source Development
+        - Automation
+        - Cloud Computing
+        - APIs
+        - Docker
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "Hobbies: Electric Guitar, Rock, Metal, Music Theory"

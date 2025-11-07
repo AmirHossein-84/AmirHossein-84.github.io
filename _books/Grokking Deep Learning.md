@@ -2,7 +2,7 @@
 layout: book-review
 title: Grokking Deep Learning
 author: Andrew W. Trask
-cover: assets\img\book_covers\Grokking Deep Learning.jpg
+cover: assets\img\book_covers\grokking deep learning.jpg
 isbn: 9781617293702
 categories: programming python deep-learning machine-learning neural-networks educational
 tags: 

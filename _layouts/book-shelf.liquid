@@ -6,44 +6,72 @@ layout: page
 {% if page.collection and page.collection.size > 0 %}
   {% assign collection = site[page.collection] %}
   {% if collection and collection.size > 0 %}
-    {% for item in collection reversed %}
-      {% assign current_year = item.date | date: '%Y' %}
-      {% if current_year != year %}
-        {% unless forloop.first %}
-          </ul>
-        {% endunless %}
-        <h1 id="y{{item.date | date: "%Y"}}">
-          <a href="{{ current_year | prepend: '/books/' | relative_url }}">{{ current_year }}</a>
-        </h1>
-        <ul>
-          {% assign year = current_year %}
-      {% endif %}
-
-      <figure class="cover">
-        <a class="cover-link" href="{{ item.url | relative_url }}">
-          {% if item.cover %}
-            <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:200px">
-          {% elsif item.olid %}
-            <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false" style="height:200px">
-          {% elsif item.isbn %}
-            <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false" style="height:200px">
+    {% assign status_order = 'finished,reading,queued,paused,interested,reread,abandoned' | split: ',' %}
+    {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
+    
+    {% for status_name in status_order %}
+      {% assign has_books = false %}
+      {% for item in collection reversed %}
+        {% if item.status %}
+          {% assign item_status = item.status | downcase | strip %}
+          {% if item_status == status_name %}
+            {% unless has_books %}
+              {% assign has_books = true %}
+              <h1 id="status-{{ status_name }}">{{ status_name | upcase }}</h1>
+              <ul>
+            {% endunless %}
+            <figure class="cover">
+              <a class="cover-link" href="{{ item.url | relative_url }}">
+                {% if item.cover %}
+                  <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:200px">
+                {% elsif item.olid %}
+                  <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false" style="height:200px">
+                {% elsif item.isbn %}
+                  <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false" style="height:200px">
+                {% endif %}
+                <figcaption class="{{ status_name | downcase }}">{{ status_name | upcase }}</figcaption>
+              </a>
+            </figure>
           {% endif %}
-          {% if item.status %}
-            {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
-            {% assign status = item.status | downcase | strip %}
-            {% if statuses contains status %}
-              <figcaption class="{{ status | downcase }}">{{ status | upcase }}</figcaption>
-            {% else %}
-              <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
-            {% endif %}
-          {% else %}
-            <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
-          {% endif %}
-        </a>
-      </figure>
-      {% if forloop.last %}
+        {% endif %}
+      {% endfor %}
+      {% if has_books %}
         </ul>
       {% endif %}
     {% endfor %}
+    
+    {% comment %} Handle books without status or with invalid status {% endcomment %}
+    {% assign has_uncategorized = false %}
+    {% for item in collection reversed %}
+      {% assign is_categorized = false %}
+      {% if item.status %}
+        {% assign item_status = item.status | downcase | strip %}
+        {% if statuses contains item_status %}
+          {% assign is_categorized = true %}
+        {% endif %}
+      {% endif %}
+      {% unless is_categorized %}
+        {% unless has_uncategorized %}
+          {% assign has_uncategorized = true %}
+          <h1 id="status-uncategorized">UNCATEGORIZED</h1>
+          <ul>
+        {% endunless %}
+        <figure class="cover">
+          <a class="cover-link" href="{{ item.url | relative_url }}">
+            {% if item.cover %}
+              <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:200px">
+            {% elsif item.olid %}
+              <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false" style="height:200px">
+            {% elsif item.isbn %}
+              <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false" style="height:200px">
+            {% endif %}
+            <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+          </a>
+        </figure>
+      {% endunless %}
+    {% endfor %}
+    {% if has_uncategorized %}
+      </ul>
+    {% endif %}
   {% endif %}
 {% endif %}

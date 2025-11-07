@@ -2,7 +2,7 @@
 layout: book-review
 title: Python for Data Analysis
 author: Wes McKinney
-cover: assets\img\book_covers\Python for Data Analysis.jpg
+cover: assets/img/book_covers/Python for Data Analysis.jpg
 isbn: 9781098104030
 categories: programming python data-science data-analysis pandas numpy educational
 tags: 

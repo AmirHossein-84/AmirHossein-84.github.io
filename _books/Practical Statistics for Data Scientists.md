@@ -2,7 +2,7 @@
 layout: book-review
 title: Practical Statistics for Data Scientists
 author: Peter Bruce, Andrew Bruce, Peter Gedeck
-cover: assets\img\book_covers\Practical Statistics for Data Scientists.jpg
+cover: assets/img/book_covers/Practical Statistics for Data Scientists.jpg
 isbn: 9781492072942
 categories: programming python statistics data-science data-analysis machine-learning educational
 tags: 

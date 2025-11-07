@@ -2,7 +2,7 @@
 layout: book-review
 title: Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow
 author: Aurélien Géron
-cover: assets\img\book_covers\Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow.jpg
+cover: assets/img/book_covers/Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow.jpg
 isbn: 9781098125974
 categories: programming python machine-learning deep-learning scikit-learn keras tensorflow educational
 tags: 

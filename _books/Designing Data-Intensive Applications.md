@@ -2,7 +2,7 @@
 layout: book-review
 title: Designing Data-Intensive Applications
 author: Martin Kleppmann
-cover: assets\img\book_covers\Designing Data-Intensive Applications.jpg
+cover: assets/img/book_covers/Designing Data-Intensive Applications.jpg
 isbn: 9781449373320
 categories: distributed-systems databases data-engineering system-design scalability consistency educational
 tags: 

@@ -2,7 +2,7 @@
 layout: book-review
 title: SQL for Data Analysis
 author: Cathy Tanimura
-cover: assets\img\book_covers\SQL for Data Analysis.jpg
+cover: assets/img/book_covers/SQL for Data Analysis.jpg
 isbn: 9781492088783
 categories: programming sql database data-science data-analysis educational
 tags: 

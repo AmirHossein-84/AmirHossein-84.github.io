@@ -2,7 +2,7 @@
 layout: book-review
 title: Hands-On Data Structures and Algorithms with Python
 author: Dr. Basant Agarwal
-cover: assets\img\book_covers\Hands-On Data Structures and Algorithms with Python.jpg
+cover: assets/img/book_covers/Hands-On Data Structures and Algorithms with Python.jpg
 olid:  # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781801073448 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: programming computer-science algorithms data-structures educational

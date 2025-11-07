@@ -2,7 +2,7 @@
 layout: book-review
 title: A Common-Sense Guide to Data Structures and Algorithms
 author: Jay Wengrow
-cover: assets\img\book_covers\common-sense-guide-to-dsa.jpg
+cover: assets/img/book_covers/common-sense-guide-to-dsa.jpg
 olid:  # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 978-1680507225 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: programming computer-science algorithms data-structures educational

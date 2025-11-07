@@ -2,7 +2,7 @@
 layout: book-review
 title: Mathematics for Machine Learning
 author: Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong
-cover: assets\img\book_covers\Mathematics for Machine Learning.jpg
+cover: assets/img/book_covers/Mathematics for Machine Learning.jpg
 isbn: 9781108455145
 categories: mathematics machine-learning linear-algebra statistics optimization probability educational
 tags: 

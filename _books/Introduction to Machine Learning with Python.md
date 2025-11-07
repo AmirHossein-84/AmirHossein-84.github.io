@@ -2,7 +2,7 @@
 layout: book-review
 title: Introduction to Machine Learning with Python
 author: Andreas C. Müller, Sarah Guido
-cover: assets\img\book_covers\Introduction to Machine Learning with Python.jpg
+cover: assets/img/book_covers/Introduction to Machine Learning with Python.jpg
 isbn: 9781449369415
 categories: programming python machine-learning scikit-learn data-science educational
 tags: 

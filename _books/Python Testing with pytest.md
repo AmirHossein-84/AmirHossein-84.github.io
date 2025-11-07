@@ -2,7 +2,7 @@
 layout: book-review
 title: Python Testing with pytest
 author: Brian Okken
-cover: assets\img\book_covers\Python Testing with pytest.jpg
+cover: assets/img/book_covers/Python Testing with pytest.jpg
 isbn: 9781680508604
 categories: programming python testing software-development educational
 tags: 

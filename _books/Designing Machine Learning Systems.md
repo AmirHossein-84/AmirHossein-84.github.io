@@ -2,7 +2,7 @@
 layout: book-review
 title: Designing Machine Learning Systems
 author: Chip Huyen
-cover: assets\img\book_covers\Designing Machine Learning Systems.jpg
+cover: assets/img/book_covers/Designing Machine Learning Systems.jpg
 isbn: 9781098107963
 categories: machine-learning software-engineering mlops production design-patterns best-practices educational
 tags: 

@@ -2,7 +2,7 @@
 layout: book-review
 title: Natural Language Processing with Transformers
 author: Lewis Tunstall, Leandro von Werra, Thomas Wolf
-cover: assets\img\book_covers\Natural Language Processing with Transformers.jpg
+cover: assets/img/book_covers/Natural Language Processing with Transformers.jpg
 isbn: 9781098136796
 categories: programming python nlp natural-language-processing transformers hugging-face deep-learning educational
 tags: 

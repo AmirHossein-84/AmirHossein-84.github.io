@@ -2,7 +2,7 @@
 layout: book-review
 title: Deep Learning with Python
 author: François Chollet, Matthew Watson
-cover: assets\img\book_covers\Deep Learning with Python.jpg
+cover: assets/img/book_covers/Deep Learning with Python.jpg
 isbn: 9781633436589
 categories: programming python deep-learning machine-learning keras tensorflow neural-networks generative-ai educational
 tags: 

@@ -2,7 +2,7 @@
 layout: book-review
 title: Neural Networks from Scratch in Python
 author: Harrison Kinsley, Daniel Kukieła
-cover: assets\img\book_covers\neural networks from scratch in python.jpg
+cover: assets/img/book_covers/neural networks from scratch in python.jpg
 isbn: 9781737814528
 categories: programming python deep-learning machine-learning neural-networks educational
 tags: 

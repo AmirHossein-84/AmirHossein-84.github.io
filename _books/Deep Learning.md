@@ -2,7 +2,7 @@
 layout: book-review
 title: Deep Learning
 author: Ian Goodfellow, Yoshua Bengio, Aaron Courville
-cover: assets\img\book_covers\Deep Learning.jpg
+cover: assets/img/book_covers/Deep Learning.jpg
 isbn: 9780262035613
 categories: deep-learning machine-learning neural-networks mathematics research comprehensive educational
 tags: 

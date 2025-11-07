@@ -2,7 +2,7 @@
 layout: book-review
 title: The Elements of Statistical Learning
 author: Trevor Hastie, Robert Tibshirani, Jerome Friedman
-cover: assets\img\book_covers\The Elements of Statistical Learning.jpg
+cover: assets/img/book_covers/The Elements of Statistical Learning.jpg
 isbn: 9780387848570
 categories: machine-learning statistics data-mining supervised-learning unsupervised-learning ensemble-methods educational
 tags: 

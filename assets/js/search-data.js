@@ -396,11 +396,106 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-deep-learning-with-python",
+          title: 'Deep Learning with Python',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/Deep%20Learning%20with%20Python/";
+            },},{id: "books-deep-learning",
+          title: 'Deep Learning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Deep%20Learning/";
+            },},{id: "books-designing-data-intensive-applications",
+          title: 'Designing Data-Intensive Applications',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Designing%20Data-Intensive%20Applications/";
+            },},{id: "books-designing-machine-learning-systems",
+          title: 'Designing Machine Learning Systems',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Designing%20Machine%20Learning%20Systems/";
+            },},{id: "books-grokking-deep-learning",
+          title: 'Grokking Deep Learning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Grokking%20Deep%20Learning/";
+            },},{id: "books-hands-on-machine-learning-with-scikit-learn-keras-and-tensorflow",
+          title: 'Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Hands-On%20Machine%20Learning%20with%20Scikit-Learn,%20Keras,%20and%20TensorFlow/";
+            },},{id: "books-introduction-to-machine-learning-with-python",
+          title: 'Introduction to Machine Learning with Python',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Introduction%20to%20Machine%20Learning%20with%20Python/";
+            },},{id: "books-machine-learning-engineering",
+          title: 'Machine Learning Engineering',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Machine%20Learning%20Engineering/";
+            },},{id: "books-machine-learning-with-pytorch-and-scikit-learn",
+          title: 'Machine Learning with PyTorch and Scikit-Learn',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Machine%20Learning%20with%20PyTorch%20and%20Scikit-Learn/";
+            },},{id: "books-mathematics-for-machine-learning",
+          title: 'Mathematics for Machine Learning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Mathematics%20for%20Machine%20Learning/";
+            },},{id: "books-natural-language-processing-with-transformers",
+          title: 'Natural Language Processing with Transformers',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Natural%20Language%20Processing%20with%20Transformers/";
+            },},{id: "books-neural-networks-from-scratch-in-python",
+          title: 'Neural Networks from Scratch in Python',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Neural%20Networks%20from%20Scratch/";
+            },},{id: "books-pattern-recognition-and-machine-learning",
+          title: 'Pattern Recognition and Machine Learning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Pattern%20Recognition%20and%20Machine%20Learning/";
+            },},{id: "books-practical-statistics-for-data-scientists",
+          title: 'Practical Statistics for Data Scientists',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Practical%20Statistics%20for%20Data%20Scientists/";
+            },},{id: "books-python-testing-with-pytest",
+          title: 'Python Testing with pytest',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Python%20Testing%20with%20pytest/";
+            },},{id: "books-sql-for-data-analysis",
+          title: 'SQL for Data Analysis',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/SQL%20for%20Data%20Analysis/";
+            },},{id: "books-the-elements-of-statistical-learning",
+          title: 'The Elements of Statistical Learning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/The%20Elements%20of%20Statistical%20Learning/";
+            },},{id: "books-a-common-sense-guide-to-data-structures-and-algorithms",
+          title: 'A Common-Sense Guide to Data Structures and Algorithms',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/common-sense-guide-to-dsa/";
+            },},{id: "books-hands-on-data-structures-and-algorithms-with-python",
+          title: 'Hands-On Data Structures and Algorithms with Python',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/hands-on-dsa/";
+            },},{id: "books-python-for-data-analysis",
+          title: 'Python for Data Analysis',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/python%20for%20data%20analysis/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",

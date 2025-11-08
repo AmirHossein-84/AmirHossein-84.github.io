@@ -486,11 +486,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/common-sense-guide-to-dsa/";
+            },},{id: "books-grokking-algorithms-second-edition",
+          title: 'Grokking Algorithms, Second Edition',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/grokking%20algorithms/";
             },},{id: "books-hands-on-data-structures-and-algorithms-with-python",
           title: 'Hands-On Data Structures and Algorithms with Python',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/hands-on-dsa/";
+            },},{id: "books-python-crash-course-3rd-edition",
+          title: 'Python Crash Course, 3rd Edition',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/python%20crash%20course/";
             },},{id: "books-python-for-data-analysis",
           title: 'Python for Data Analysis',
           description: "",

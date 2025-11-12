@@ -5,11 +5,11 @@ function determineGiscusTheme() {
       document.documentElement.getAttribute("data-theme") ||
       "system";
 
-    if (theme === "dark") return "dark";
+    if (theme === "dark") return "preferred_color_scheme";
     if (theme === "light") return "light";
 
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    return prefersDark ? "dark" : "light";
+    return prefersDark ? "preferred_color_scheme" : "light";
   
 }
 
@@ -19,14 +19,14 @@ function determineGiscusTheme() {
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
     "data-repo": "AmirHossein-84/AmirHossein-84.github.io",
-    "data-repo-id": "",
+    "data-repo-id": "R_kgDOQQbsLg",
     "data-category": "Comments",
     "data-category-id": "",
-    "data-mapping": "title",
+    "data-mapping": "pathname",
     "data-strict": "1",
     "data-reactions-enabled": "1",
     "data-emit-metadata": "0",
-    "data-input-position": "bottom",
+    "data-input-position": "top",
     "data-theme": giscusTheme,
     "data-lang": "en",
     crossorigin: "anonymous",
